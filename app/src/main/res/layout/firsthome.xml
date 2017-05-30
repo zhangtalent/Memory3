@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/loginbg"
+        android:scaleType="centerCrop"
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="65dp">
+        <Button
+            android:id="@+id/write"
+            android:text=""
+            android:layout_width="65dp"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="65dp">
+        <Button
+            android:id="@+id/union"
+            android:text=""
+            android:layout_width="65dp"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="65dp">
+        <Button
+            android:id="@+id/user"
+            android:text=""
+            android:layout_width="65dp"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+</LinearLayout>

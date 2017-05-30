@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#d903ac16"
+        android:title=""
+        android:layout_gravity="center"
+        app:title="回忆"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+        android:gravity="top"
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"/>
+        <RelativeLayout
+            android:background="#641be74a"
+android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+        <Button
+        android:layout_alignParentLeft="true"
+        android:id="@+id/bt"
+        android:background="@drawable/aio_image_default_round"
+        android:layout_width="50dp"
+        android:layout_height="match_parent" />
+            <Button
+                android:textColor="#e9faf7f7"
+                android:layout_alignParentRight="true"
+                android:id="@+id/send"
+                android:text="发送"
+                android:textSize="20sp"
+                android:background="@drawable/loginbt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+</FrameLayout>
+</LinearLayout>

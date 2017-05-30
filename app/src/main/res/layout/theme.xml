@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+<FrameLayout
+    android:layout_margin="10dp"
+    android:id="@+id/moren"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/loginbg"
+        android:scaleType="centerCrop"
+        android:id="@+id/themebg1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:visibility="gone"
+        android:src="@android:drawable/checkbox_on_background"
+        android:layout_gravity="top|left"
+        android:id="@+id/themecover1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:text="默认背景"
+        android:layout_gravity="bottom|center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>
+        <FrameLayout
+            android:layout_margin="10dp"
+            android:id="@+id/zidingyi"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/loginbg"
+                android:scaleType="centerCrop"
+                android:id="@+id/themebg3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:visibility="gone"
+                android:src="@android:drawable/checkbox_on_background"
+                android:layout_gravity="top|left"
+                android:id="@+id/themecover3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:textSize="17sp"
+                android:textColor="#fff"
+                android:text="自定义图片"
+                android:layout_gravity="bottom|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            </FrameLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/mohu"
+        android:layout_margin="10dp"
+        android:textColor="#d192c1e1"
+        android:textSize="21sp"
+        android:text="启用背景模糊"
+        android:background="@drawable/loginbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/mohuoff"
+        android:layout_margin="10dp"
+        android:textColor="#d192c1e1"
+        android:textSize="21sp"
+        android:text="停用背景模糊"
+        android:background="@drawable/loginbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/loginbg"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center">
+  <LinearLayout
+
+      android:layout_margin="20dp"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+<EditText
+    android:paddingLeft="10dp"
+    android:textSize="20sp"
+    android:theme="@style/et"
+    android:layout_marginTop="75dp"
+    android:textColor="#f4f4f4"
+    android:textColorHint="#e9e9e9"
+    android:hint="用户名"
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:theme="@style/et"
+        android:layout_marginTop="10dp"
+        android:textColor="#f4f4f4"
+        android:textColorHint="#e9e9e9"
+        android:hint="密  码"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:visibility="gone"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:theme="@style/et"
+        android:layout_marginTop="5dp"
+        android:textColor="#f4f4f4"
+        android:textColorHint="#e9e9e9"
+        android:hint="邮  箱"
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+
+            android:layout_marginRight="15dp"
+            android:textSize="23sp"
+            android:textColor="#f4f4f4"
+            android:background="@drawable/loginbt"
+            android:id="@+id/login"
+            android:text="登   录"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_weight="1"
+
+            android:layout_marginLeft="15dp"
+            android:textSize="23sp"
+            android:textColor="#f4f4f4"
+            android:background="@drawable/loginbt"
+            android:id="@+id/register"
+            android:text="注   册"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+      <Button
+          android:layout_marginTop="15dp"
+          android:background="@drawable/qq"
+          android:id="@+id/loginbyqq"
+          android:layout_width="60dp"
+          android:layout_height="60dp" />
+      <Button
+          android:background="#00000000"
+          android:textSize="17sp"
+          android:textColor="#f4f4f4"
+          android:padding="5dp"
+          android:gravity="bottom|center"
+          android:id="@+id/findout"
+          android:text="找回密码"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+</LinearLayout>
+
+</LinearLayout>

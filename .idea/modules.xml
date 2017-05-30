@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Memory.iml" filepath="$PROJECT_DIR$/Memory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-bither-compress/lib-bither-compress.iml" filepath="$PROJECT_DIR$/lib-bither-compress/lib-bither-compress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-image-selector/multi-image-selector.iml" filepath="$PROJECT_DIR$/multi-image-selector/multi-image-selector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoview/photoview.iml" filepath="$PROJECT_DIR$/photoview/photoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ucrop/ucrop.iml" filepath="$PROJECT_DIR$/ucrop/ucrop.iml" />
+    </modules>
+  </component>
+</project>

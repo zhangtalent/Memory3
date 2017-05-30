@@ -1,0 +1,1 @@
+include ':app', ':sample', ':lib', ':ucrop', ':lib-bither-compress', ':multi-image-selector', ':photoview'

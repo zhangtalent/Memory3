@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:gravity="top|center"
+	android:layout_gravity="top|center"
+	android:id="@+id/fll">
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		app:title="反馈"
+		app:titleTextColor="#ffffff"
+		android:layout_height="?attr/actionBarSize"
+		android:background="@android:color/holo_blue_light"
+		app:popupTheme="@style/AppTheme.PopupOverlay" />
+	<LinearLayout
+		android:layout_height="55dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="50dp"
+			android:layout_width="match_parent"
+			android:text="意见反馈"
+			android:textSize="25dp"
+			android:gravity="center"
+			android:id="@+id/tv"
+			android:visibility="invisible"
+			android:layout_marginTop="5dp"/>
+
+	</LinearLayout>
+
+	<EditText
+		android:layout_height="100dp"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:hint="[必填-联系方式] 例QQ123456"
+		android:id="@+id/et1"
+		android:textSize="23sp"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="40dp"
+
+		android:paddingLeft="25dp"
+		android:paddingRight="25dp"
+		android:textColor="#829AA6"/>
+
+	<EditText
+		android:layout_height="200dp"
+		android:inputType="textMultiLine"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:hint="反馈内容"
+		android:id="@+id/et2"
+		android:textSize="23sp"
+		android:layout_marginBottom="10dp"
+
+		android:paddingTop="30dp"
+		android:paddingLeft="30dp"
+		android:gravity="top"
+		android:textColor="#829AA6"/>
+
+	<Button
+		android:layout_height="50dp"
+		android:text="发送"
+		android:layout_width="match_parent"
+		android:id="@+id/bt"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+
+		android:textColor="#829AA6"
+		android:textSize="23sp"/>
+
+</LinearLayout>
+
